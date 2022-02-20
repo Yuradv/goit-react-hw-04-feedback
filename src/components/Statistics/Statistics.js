@@ -4,20 +4,20 @@ import s from './Statistics.module.css';
 function Statisctics({ good, neutral, bad, total, positivePercentage }) {
   return (
     <ul className={s.list}>
-      <li>
-        <p>Good: {good}</p>
+      <li className={s.item}>
+        <p className={s.text}>Good: {good}</p>
       </li>
-      <li>
-        <p>Neutral: {neutral}</p>
+      <li className={s.item}>
+        <p className={s.text}>Neutral: {neutral}</p>
       </li>
-      <li>
-        <p>Bad: {bad}</p>
+      <li className={s.item}>
+        <p className={s.text}>Bad: {bad}</p>
       </li>
-      <li>
-        <p>Total: {total}</p>
+      <li className={s.item}>
+        <p className={s.text}>Total: {total}</p>
       </li>
-      <li>
-        <p>Positive feedback: {positivePercentage}%</p>
+      <li className={s.item}>
+        <p className={s.text}>Positive feedback: {positivePercentage}%</p>
       </li>
     </ul>
   );

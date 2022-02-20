@@ -15,9 +15,10 @@ class App extends Component {
   }
 
  onHandleIncrement = e => {
-    this.setState(prevState => {
+   this.setState(prevState => {
       return { [e.target.name]: (prevState[e.target.name] += 1) };
     });
+   
   };
  
   countTotalFeedback = () => {
@@ -41,7 +42,7 @@ class App extends Component {
     return (
       <Container>
         <Section
-        title='Please leave feedback'>
+        title='Please leave your feedback'>
         <FeedbackOptions
           options={Object.keys(this.state)}
           onLeaveFeedback={this.onHandleIncrement}

@@ -3,8 +3,13 @@
   margin-left: auto;
   margin-right: auto;
   padding-left: 40px;
+  text-align: center;
 }
 
 .section:first-child {
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid grey;
+}
+
+.title {
+  font-weight: 700;
 }
