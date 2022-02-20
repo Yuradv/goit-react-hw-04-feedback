@@ -1,0 +1,10 @@
+.section {
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+}
+
+.section:first-child {
+  border-bottom: 1px solid green;
+}
